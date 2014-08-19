@@ -1,0 +1,31 @@
+[DeviceName]
+Value=P16F877A
+[DeviceClock]
+Value=4
+[MainUnit]
+Value=SVDrPIC.c
+[DeviceFlags]
+Count=3
+Value0=_LVP_OFF = $3F7F
+Value1=_WDT_OFF = $3FFB
+Value2=_XT_OSC = $3FFD
+[BuildType]
+bType=0
+[ProjectFiles]
+Count=1
+Value0=SVDrPIC.c
+[HeaderFiles]
+Count=0
+[ObjLibFiles]
+Count=0
+[PLDFiles]
+Count=0
+[EEPROMinfo]
+isused=0
+[SearchPath]
+Count=3
+Value0=C:\Program Files\Mikroelektronika\mikroC\Defs\
+Value1=C:\Program Files\Mikroelektronika\mikroC\Uses\p16\
+Value2=C:\Users\AliTY\Desktop\SVDrPIC\
+[IncludePath]
+Count=0

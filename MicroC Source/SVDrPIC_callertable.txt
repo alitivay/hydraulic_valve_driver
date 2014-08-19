@@ -1,0 +1,14 @@
+main
+	ReadToPWM
+		PWM2_Change_Duty
+			Mul_16x16_S
+		PWM1_Change_Duty
+			Mul_16x16_S
+		Adc_Read
+			Delay_22us
+	ChargePump
+	PWM2_Start
+	PWM1_Start
+	InitMicro
+		PWM2_Init
+		PWM1_Init
