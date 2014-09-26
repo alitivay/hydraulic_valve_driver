@@ -1,4 +1,4 @@
-# Writing all output to: C:\Users\AliTY\Desktop\SVDrPIC\driver_micro_model_2.log
+# Writing all output to: C:\Users\AliTY\Desktop\Projects\ValveDriver\SVDrPIC\SchemaLayout\driver_micro_model_2.log
 set pad_wire_necking on
 bus diagonal
 fanout 10

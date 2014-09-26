@@ -1,4 +1,4 @@
-#line 1 "C:/Users/AliTY/Desktop/SVDrPIC/SVDrPIC.c"
+#line 1 "C:/Users/AliTY/Desktop/SVDrPIC/MicroC Source/SVDrPIC.c"
 
 
 
@@ -29,8 +29,8 @@ void InitMicro() {
  PORTC = 0;
  TRISC = 0;
 
- PWM1_Init( 1000 );
- PWM2_Init( 1000 );
+ PWM1_Init( 500 );
+ PWM2_Init( 500 );
 
  current_duty_1 = 0;
  old_duty_1 = 0;
@@ -53,7 +53,7 @@ void ChargePump() {
  Delay_us( 50 );
 
  PORTB = 0b11110000;
- Delay_us( 600  - 210);
+ Delay_us( 600  - 120);
 }
 
 

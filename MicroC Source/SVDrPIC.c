@@ -52,7 +52,7 @@ void ChargePump() {
   Delay_us(PUMP_OFF_TIME);
   
   PORTB = 0b11110000;
-  Delay_us(PUMP_ON_TIME - 210);
+  Delay_us(PUMP_ON_TIME);
 }
 
 //----------------------------------------------------------------------
